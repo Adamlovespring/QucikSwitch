@@ -29,7 +29,7 @@ public class ShowLayoutBoundsAction extends AnAction {
     private void handleAction() {
         toggleSwitch();
         String command = COMMAND_SET_PROP + " " + FUNCTION_SHOW_LAYOUT_BOUNDS + " " + mSwitch;
-        CommandHelper.executeCommandWithoutResponse(mAndroidDebugBridge, command, true);
+        CommandHelper.executeCommand(mAndroidDebugBridge, command);
     }
 
     private void toggleSwitch() {

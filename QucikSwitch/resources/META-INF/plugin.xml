@@ -18,7 +18,7 @@
     <depends>com.intellij.modules.lang</depends>
     <depends>org.jetbrains.android</depends>
     <depends>com.intellij.modules.platform</depends>
-
+o
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
     </extensions>
@@ -32,6 +32,10 @@
             <action id="com.tencent.warningwang.action.DebugGPUOverdrawAction" class="action.DebugGPUOverdrawAction"
                     text="Debug GPU overdraw">
                 <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt O"/>
+            </action>
+            <action id="com.tencent.warningwang.action.ProfileGPURenderAction" class="action.ProfileGPURenderAction"
+                    text="Profile GPU rendering">
+                <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt P"/>
             </action>
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </group>

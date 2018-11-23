@@ -31,7 +31,7 @@ public class DebugGPUOverdrawAction extends AnAction {
     private void handleAction() {
         toggleSwitch();
         String command = COMMAND_SET_PROP + " " + FUNCTION_SHOW_GPU_OVERDRAW + " " + mSwitch;
-        CommandHelper.executeCommandWithoutResponse(mAndroidDebugBridge, command, true);
+        CommandHelper.executeCommand(mAndroidDebugBridge, command);
     }
 
     private void toggleSwitch() {
