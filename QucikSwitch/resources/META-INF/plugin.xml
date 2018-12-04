@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.tencent.warningwang</id>
     <name>Android Quick Switch</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <vendor email="warningwang@tencent.com">tencent</vendor>
 
     <description><![CDATA[
@@ -26,7 +26,7 @@ o
     <actions>
         <group id="QuickSwitch" text="QuickSwitch" description="QuickSwitch" popup="true">
             <action id="com.tencent.warningwang.action.ShowLayoutBoundsAction" class="action.ShowLayoutBoundsAction"
-                    text="show layout bounds">
+                    text="Show layout bounds">
                 <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt Q"/>
             </action>
             <action id="com.tencent.warningwang.action.DebugGPUOverdrawAction" class="action.DebugGPUOverdrawAction"
