@@ -4,6 +4,7 @@ An Android Studio plugin that makes it easy to open development tools. Currently
 
 - open the "Show layout bounds" 
 - open the "Debug GPU overdraw"
+- open the "Profile GPU rendering"
 
 # Installation
 
